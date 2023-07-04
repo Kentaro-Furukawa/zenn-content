@@ -3,7 +3,7 @@ title: "Zoom Marketplace AppのShared access permissionsがAuthorizedされて�
 emoji: "🌊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Zoom", "marketplace", "OAuth", "app", "API"]
-published: true
+published: false
 ---
 
 Zoom MarketpalceのOAuth Appでミーティングを予約しようとしてもShared access permissionsがAuthorizedされていなければ予約できないので、事前にチェックしたいと思って調べてみました。
