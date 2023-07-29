@@ -6,7 +6,7 @@ topics: ["Zoom", "marketplace", "OAuth", "app", "API"]
 published: true
 ---
 
-Zoom MarketpalceのOAuth Appでミーティングを予約しようとしてもShared access permissionsがAuthorizedされていなければ予約できないので、事前にチェックしたいと思って調べてみました。
+Zoom MarketpalceのOAuth AppでShared access permissionsがAuthorizedされているのか事前にチェックしたいと思って調べてみました。
 
 # 結論 
 
@@ -24,12 +24,3 @@ Forumでいくつかリクエスとが上がっているようなので、今後
 テストでミーティングを作成を試みてチェックするしかないかと思います。
 ミーティング作成に失敗したらShared access permissionsがAuthorizedされていない可能性があるので、
 Authorizedされているのか確認とAuthorizedの手順を案内して対応しようと思います。
-
-
-## そもそもアプリが追加されているかの確認
-
-ミーティングのリストを取得するAPIでエラーが返ってきたらアプリが追加されていないものと判断できるずです。
-```
-GET /users/{userId}/meetings
-```
-[List meetings](https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#operation/meetings)
