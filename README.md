@@ -5,3 +5,10 @@
 ```
 cd Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Zenn
 ```
+
+## Snippets
+
+```
+// new article
+npx zenn new:article
+```
