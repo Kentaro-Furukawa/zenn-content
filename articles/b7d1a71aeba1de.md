@@ -29,8 +29,8 @@ console.log(a === b) // falseになる。
 これだと`false`になる。
 
 `Array`,`Object`,`function`,`date`などの`Object`はメモリ上の場所（アドレス）を保持するので
-中身が同じ`Array`であろうが別々の`Object`のアドレスを保持しているので
-ここで`false`になる。
+中身が同じ`Array`であろうが別々の`Object`のアドレスを保持しており、アドレスと別のアドレスを比較しているので
+`false`になる。
 
 
 
